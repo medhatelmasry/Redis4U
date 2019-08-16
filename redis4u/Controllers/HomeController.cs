@@ -62,7 +62,6 @@ namespace redis4u.Controllers
                 ViewData["DistCache"] = existingTime;
             }
 
-            //string strCols = _config.GetValue<string>("table:columns");
             string strCols = _config["table:columns"];
             if (string.IsNullOrEmpty(strCols))
                 ViewBag.Columns = "2";

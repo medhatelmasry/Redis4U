@@ -36,11 +36,6 @@ namespace redis4u.Models
             var webRoot = env.WebRootPath;
             string dir = string.Empty;
 
-            //if (OperatingSystem.IsWindows())
-            //    dir = webRoot + @"\images\dogs";
-            //else
-            //    dir = webRoot + @"/images/dogs";
-
             dir = webRoot + Path.DirectorySeparatorChar + "images" + Path.DirectorySeparatorChar + "dogs";
 
             string[] files = System.IO.Directory.GetFiles(dir);

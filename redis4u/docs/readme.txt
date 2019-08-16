@@ -5,7 +5,7 @@ https://dotnetcoretutorials.com/2017/01/06/using-redis-cache-net-core/
 Download redis desktop manager:
 	https://redisdesktop.com/download
 
-docker run –p 6379:6379 --name rds -d redis:5.0.5
+docker run -p 6379:6379 --name rds -d redis:5.0.5
 
 docker logs rds
 
